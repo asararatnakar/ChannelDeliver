@@ -58,8 +58,12 @@ Various other options
 **NOTE :** TLS is **DISABLED** both on Client/ Network
 
 * Can run different tests by changing the e2e_cli sample
+  
   --> Create multiple channels 
   (change generateArtifacts.sh file to include `$CONFIGTXGEN -profile TwoOrgsChannel -outputCreateChannelTx ./channel-artifacts/channel1.tx -channelID ${CHANNEL_NAME}"1"`
+  
   --> Donot join all the peers in the script and join at later point
+  
   --> Send Invokes concurrently etc.,
+  
 * Generate multiple client to listen on multiple channels
