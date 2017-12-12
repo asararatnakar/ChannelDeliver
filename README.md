@@ -55,3 +55,11 @@ Various other options
 * ./deliver_stdout -channelID mychannel -quiet -server -seek <-2|-1|0|(1..N)>
 * ./deliver_stdout -channelID mychannel -seek 2 >& block.json
  
+**NOTE :** TLS is **DISABLED** both on Client/ Network
+
+* Can run different tests by changing the e2e_cli sample
+  --> Create multiple channels
+  --> Donot join all the peers in the script and join at later point
+  --> Send Invokes concurrently etc.,
+* Generate multiple client to listen on multiple channels
+
