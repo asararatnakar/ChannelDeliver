@@ -1,4 +1,5 @@
 
+This content is copied as is from [here](https://gerrit.hyperledger.org/r/#/c/16155/2/docs/tutorials/channel-events.md)
 This tutorial illustrates the use of a channel based events, These events are similar to the existing events, however are specific to a specific channel. The events are new feature of the Hyperledger Fabric Node.js client as of 1.1.
 
 For more information on:
